@@ -1,0 +1,28 @@
+name: social_media_engagement
+channels:
+  - conda-forge
+  - jmcmurray
+  - defaults
+dependencies:
+  - python>=3.9
+  - pip
+  - pip:
+      - gensim
+      - nltk
+  - numpy
+  - ipywidgets
+  - psutil
+  - matplotlib
+  - dill
+  - bqplot
+  - ipympl
+  - ipyvolume
+  - tweepy
+  - pyLDAvis
+  - scipy
+  - seaborn
+  - wordcloud
+  - scipy
+  - scikit-learn
+  - voila
+  - voila-material
